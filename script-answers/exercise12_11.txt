@@ -1,0 +1,23 @@
+Script started on 2022-10-20 17:57:59+0300
+]0;julinden@lx9-fuxi265: ~/FullStackPart12/todo-app/todo-backend[01;32mjulinden@lx9-fuxi265[00m:[01;34m~/FullStackPart12/todo-app/todo-backend[00m$ exitdocker exec -it 58 redis-cli
+127.0.0.1:6379> [0K127.0.0.1:6379> K[17C[0K127.0.0.1:6379> KE[18C[0K127.0.0.1:6379> KEY[19C[0K127.0.0.1:6379> KEYS[0;90;49m pattern[0m[20C[0K127.0.0.1:6379> KEYS [0;90;49mpattern[0m[21C[0K127.0.0.1:6379> KEYS *[0;90;49m [0m[22C[0K127.0.0.1:6379> KEYS *[22C
+1) "todosAdded"
+127.0.0.1:6379> [0K127.0.0.1:6379> KEYS *[0;90;49m [0m[22C[0K127.0.0.1:6379> SET todosAdded 9001[0;90;49m [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT[0m[35C[0K127.0.0.1:6379> GET todosAdded[0;90;49m [0m[30C[0K127.0.0.1:6379> GET todosAdded[30C
+"0"
+127.0.0.1:6379> [0K127.0.0.1:6379> GET todosAdded[0;90;49m [0m[30C[0K127.0.0.1:6379> KEYS *[0;90;49m [0m[22C[0K127.0.0.1:6379> SET todosAdded 9001[0;90;49m [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT[0m[35C[0K127.0.0.1:6379> SET todosAdded 9001[35C
+OK
+127.0.0.1:6379> [0K127.0.0.1:6379> SET todosAdded 9001[0;90;49m [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT[0m[35C[0K127.0.0.1:6379> GET todosAdded[0;90;49m [0m[30C[0K127.0.0.1:6379> GET todosAdded[30C
+"9002"
+127.0.0.1:6379> [0K127.0.0.1:6379> D[17C[0K127.0.0.1:6379> DE[18C[0K127.0.0.1:6379> DEL[0;90;49m key [key ...][0m[19C[0K127.0.0.1:6379> DEL [0;90;49mkey [key ...][0m[20C[0K127.0.0.1:6379> DEL t[0;90;49m [key ...][0m[21C[0K127.0.0.1:6379> DEL to[0;90;49m [key ...][0m[22C[0K127.0.0.1:6379> DEL tod[0;90;49m [key ...][0m[23C[0K127.0.0.1:6379> DEL todo[0;90;49m [key ...][0m[24C[0K127.0.0.1:6379> DEL todos[0;90;49m [key ...][0m[25C[0K127.0.0.1:6379> DEL todosA[0;90;49m [key ...][0m[26C[0K127.0.0.1:6379> DEL todosAd[0;90;49m [key ...][0m[27C[0K127.0.0.1:6379> DEL todosAdd[0;90;49m [key ...][0m[28C[0K127.0.0.1:6379> DEL todosAdde[0;90;49m [key ...][0m[29C[0K127.0.0.1:6379> DEL todosAdded[0;90;49m [key ...][0m[30C[0K127.0.0.1:6379> DEL todosAdded[30C
+(integer) 1
+127.0.0.1:6379> [0K127.0.0.1:6379> K[17C[0K127.0.0.1:6379> KE[18C[0K127.0.0.1:6379> KEY[19C[0K127.0.0.1:6379> KEYS[0;90;49m pattern[0m[20C[0K127.0.0.1:6379> KEYS [0;90;49mpattern[0m[21C[0K127.0.0.1:6379> KEYS *[0;90;49m [0m[22C[0K127.0.0.1:6379> KEYS *[22C
+(empty array)
+127.0.0.1:6379> [0K127.0.0.1:6379> KEYS *[0;90;49m [0m[22C[0K127.0.0.1:6379> KEYS *[22C
+1) "todosAdded"
+127.0.0.1:6379> [0K127.0.0.1:6379> G[17C[0K127.0.0.1:6379> GE[18C[0K127.0.0.1:6379> GET[0;90;49m key[0m[19C[0K127.0.0.1:6379> GET [0;90;49mkey[0m[20C[0K127.0.0.1:6379> GET t[0;90;49m [0m[21C[0K127.0.0.1:6379> GET to[0;90;49m [0m[22C[0K127.0.0.1:6379> GET tod[0;90;49m [0m[23C[0K127.0.0.1:6379> GET todo[0;90;49m [0m[24C[0K127.0.0.1:6379> GET todos[0;90;49m [0m[25C[0K127.0.0.1:6379> GET todosA[0;90;49m [0m[26C[0K127.0.0.1:6379> GET todosAd[0;90;49m [0m[27C[0K127.0.0.1:6379> GET todosAdd[0;90;49m [0m[28C[0K127.0.0.1:6379> GET todosAdde[0;90;49m [0m[29C[0K127.0.0.1:6379> GET todosAdded[0;90;49m [0m[30C[0K127.0.0.1:6379> GET todosAdded[30C
+"1"
+127.0.0.1:6379> 
+]0;julinden@lx9-fuxi265: ~/FullStackPart12/todo-app/todo-backend[01;32mjulinden@lx9-fuxi265[00m:[01;34m~/FullStackPart12/todo-app/todo-backend[00m$ exit
+exit
+
+Script done on 2022-10-20 18:09:06+0300

@@ -1,0 +1,9 @@
+julinden@lx9-fuxi265:~/FullStackPart12/script-answers$ docker start -i festive_bell 
+root@2f77e22b0078:/# nano /usr/app/index.js
+root@2f77e22b0078:/# exit
+exit
+julinden@lx9-fuxi265:~/FullStackPart12/script-answers$ exit
+exit
+
+Script done on 2022-10-19 00:18:34+0300
+

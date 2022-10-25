@@ -1,0 +1,21 @@
+services:
+  app:
+    image: patientor-frontend-prod
+    build:
+      context: ./patientor # The context will pick this directory as the "build context"
+      dockerfile: Dockerfile # This will simply tell which dockerfile to read
+    volumes:
+      - ./patientor/:/usr/src/app # The path can be relative, so ./ is enough to say "the same location as the docker-compose.yml"
+    ports:
+      - 3000:3000
+    container_name: patientor-frontend-prod # This will name the container hello-front-dev
+  server:
+      image: patientor-backend-prod
+      build:
+        context: ./patientor_backend # The context will pick this directory as the "build context"
+        dockerfile: Dockerfile # This will simply tell which dockerfile to read
+      volumes:
+        - ./patientor_backend/:/usr/src/app # The path can be relative, so ./ is enough to say "the same location as the docker-compose.yml"
+      ports:
+        - 3001:3001
+      container_name: patientor-backend

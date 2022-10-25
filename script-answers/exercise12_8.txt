@@ -1,0 +1,77 @@
+Script started on 2022-10-20 13:57:01+0300
+]0;julinden@lx9-fuxi265: ~/FullStackPart12/todo-app/todo-backend[01;32mjulinden@lx9-fuxi265[00m:[01;34m~/FullStackPart12/todo-app/todo-backend[00m$ MONGO_URL=mongodb://the_username:the_passworrd@localhost:3456/the_database npm run dev[A]0;julinden@lx9-fuxi265: ~/FullStackPart12/todo-app/todo-backend[01;32mjulinden@lx9-fuxi265[00m:[01;34m~/FullStackPart12/todo-app/todo-backend[00m$ docker volume inspect 5c62f733115d50010086a4702dadf9a05a20e5da1ef08d6b94f1344b998770fb [A]0;julinden@lx9-fuxi265: ~/FullStackPart12/todo-app/todo-backend[01;32mjulinden@lx9-fuxi265[00m:[01;34m~/FullStackPart12/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kinspect 5c62f733115d50010086a44702dadf9a05a20e5da1ef08d6b94f1344b998770fb [A]0;julinden@lx9-fuxi265: ~/FullStackPart12/todo-app/todo-backend[01;32mjulinden@lx9-fuxi265[00m:[01;34m~/FullStackPart12/todo-app/todo-backend[00m$ MONGO_URL=mongodb://the_username:the_passwor[2Pd@localhost:3456/the_database npm run dev[A]0;julinden@lx9-fuxi265: ~/FullStackPart12/todo-app/todo-backend[01;32mjulinden@lx9-fuxi265[00m:[01;34m~/FullStackPart12/todo-app/todo-backend[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CMONGO_URL=mongodb://the_username:the_passworrd@localhost:3456/the_database npm run dev[A]0;julinden@lx9-fuxi265: ~/FullStackPart12/todo-app/todo-backend[01;32mjulinden@lx9-fuxi265[00m:[01;34m~/FullStackPart12/todo-app/todo-backend[00m$ docker volume inspect 5c62f733115d50010086a4702dadf9a05a20e5da1ef08d6b94f1344b998770fb [A]0;julinden@lx9-fuxi265: ~/FullStackPart12/todo-app/todo-backend[01;32mjulinden@lx9-fuxi265[00m:[01;34m~/FullStackPart12/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K-compose -f docker-compose.dev.yml up [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21P container ls -a
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K-compose -f docker-compose.dev.yml up [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdowwn --volumes[A]0;julinden@lx9-fuxi265: ~/FullStackPart12/todo-app/todo-backend[01;32mjulinden@lx9-fuxi265[00m:[01;34m~/FullStackPart12/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pdown --remove-orphans
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-f docker-compose.dev.yml dowwn --volumes[A]0;julinden@lx9-fuxi265: ~/FullStackPart12/todo-app/todo-backend[01;32mjulinden@lx9-fuxi265[00m:[01;34m~/FullStackPart12/todo-app/todo-backend[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cup [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24P container ls
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -a-compose -f docker-compose.dev.yml up [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C volume ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cinspect 5c62f733115d50010086a44702dadf9a05a20e5da1ef08d6b94f1344b998770fb [A]0;julinden@lx9-fuxi265: ~/FullStackPart12/todo-app/todo-backend[01;32mjulinden@lx9-fuxi265[00m:[01;34m~/FullStackPart12/todo-app/todo-backend[00m$ MONGO_URL=mongodb://the_username:the_passwor[2Pd@localhost:3456/the_database npm run dev[A]0;julinden@lx9-fuxi265: ~/FullStackPart12/todo-app/todo-backend[01;32mjulinden@lx9-fuxi265[00m:[01;34m~/FullStackPart12/todo-app/todo-backend[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker exec[K[K[K[K[K[K[K[K[K[K[Kdocker exec -it 987 mongosh -u root -p exampple
+]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	635129aa773e1903de96d48f
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.6.0[0m
+Using MongoDB:		6.0.2
+[1m[33mUsing Mongosh[0m:		1.6.0
+
+For mongosh info see: [1mhttps://docs.mongodb.com/mongodb-shell/[0m
+
+[1G[0J [1G[1m[33m------[0m
+   [1m[33mThe server generated these startup warnings when booting[0m
+   2022-10-20T10:37:39.227+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2022-10-20T10:37:39.936+00:00: vm.max_map_count is too low
+[1m[33m------[0m
+
+[1m[33m------[0m
+   Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+   metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+   
+   The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+   and anyone you share the URL with. MongoDB may use this information to make product
+   improvements and to suggest MongoDB products and deployment options to you.
+   
+   To enable free monitoring, run the following command: db.enableFreeMonitoring()
+   To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+[1m[33m------[0m
+
+[1G[0Jtest> [7Gdb.to[1G[0Jtest> db.t[11G[1G[0Jtest> db.[10G[1G[0Jtest> db[9G[1G[0Jtest> d[8G[1G[0Jtest> [7Gshow dbs
+[1madmin[0m         100.00 KiB
+[1mconfig[0m        108.00 KiB
+[1mlocal[0m          72.00 KiB
+[1mthe_database[0m   72.00 KiB
+[1G[0Jtest> [7Guse the_database
+switched to db the_database
+[1G[0Jthe_database> [15Gshow collections
+[1mtodos[0m
+[1G[0Jthe_database> [15Gdb[1G[0Jthe_database> d[16G[1G[0Jthe_database> [15Gdb.todos.insertOner[1G[0Jthe_database> db.todos.insertOne[33G( { text[33mtext[39m: [32m"[39m[32mI[39m[32mn[39m[32mc[39m[32mr[39m[32me[39m[32ma[39m[32ms[39m[32me[39m [32mt[39m[32mh[39m[32me[39m [32mn[39m[32mu[39m[32mm[39m[32mb[39m[32me[39m[32mr[39m [32mo[39m[32mf[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m[32ms[39m [32mi[39m[32mn[39m [32mm[39m[32my[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m[32mb[39m[32me[39m[32ml[39m[32mt[39m[32m"[39m, d[36mdo[39mdone[33mdone[39m: fals[33mfalse[39m } )[1G[0Jthe_database> db.todos.insertOne( { [33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m } ); [1G
+{
+  acknowledged: [33mtrue[39m,
+  insertedId: ObjectId("63512a1c2d0f3a975a748b1e")
+}
+[1G[0Jthe_database> [15Gdb.todos.find({})
+[
+  {
+    _id: ObjectId("635011bfba637572bc88b0a1"),
+    text: [32m'Write codeeeee nuu'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId("635011bfba637572bc88b0a2"),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId("6351292704ee00329129d683"),
+    text: [32m'shellInsert'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId("63512a1c2d0f3a975a748b1e"),
+    text: [32m'Increase the number of tools in my toolbelt'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15Gexit
+]0;julinden@lx9-fuxi265: ~/FullStackPart12/todo-app/todo-backend[01;32mjulinden@lx9-fuxi265[00m:[01;34m~/FullStackPart12/todo-app/todo-backend[00m$ exit
+exit
+
+Script done on 2022-10-20 14:00:08+0300

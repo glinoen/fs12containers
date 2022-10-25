@@ -1,0 +1,7 @@
+julinden@lx9-fuxi265:~/FullStackPart12/script-answers$ docker run -it ubuntu bash
+root@2f77e22b0078:/# mkdir /usr/src/app/
+root@2f77e22b0078:/# touch /usr/src/app/index.js
+root@2f77e22b0078:/# ls /usr/src/app/
+index.js
+root@2f77e22b0078:/# exit
+exit

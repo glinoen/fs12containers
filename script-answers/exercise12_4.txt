@@ -1,0 +1,261 @@
+Script started on 2022-10-19 00:20:09+0300
+]0;julinden@lx9-fuxi265: ~/FullStackPart12/script-answers[01;32mjulinden@lx9-fuxi265[00m:[01;34m~/FullStackPart12/script-answers[00m$ exitdocker start -i festive_bell 
+[?2004h]0;root@2f77e22b0078: /root@2f77e22b0078:/# [K]0;root@2f77e22b0078: /root@2f77e22b0078:/# apt-get y   - install         install curl
+[?2004lReading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 8%Reading package lists... 8%Reading package lists... 82%Reading package lists... 82%Reading package lists... 83%Reading package lists... 83%Reading package lists... 87%Reading package lists... 87%Reading package lists... 90%Reading package lists... 90%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 95%Reading package lists... 95%Reading package lists... 97%Reading package lists... 97%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 95%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  ca-certificates libbrotli1 libcurl4 libldap-2.5-0 libldap-common libnghttp2-14 libpsl5 librtmp1
+  libsasl2-2 libsasl2-modules libsasl2-modules-db libssh-4 openssl publicsuffix
+Suggested packages:
+  libsasl2-modules-gssapi-mit | libsasl2-modules-gssapi-heimdal libsasl2-modules-ldap
+  libsasl2-modules-otp libsasl2-modules-sql
+The following NEW packages will be installed:
+  ca-certificates curl libbrotli1 libcurl4 libldap-2.5-0 libldap-common libnghttp2-14 libpsl5 librtmp1
+  libsasl2-2 libsasl2-modules libsasl2-modules-db libssh-4 openssl publicsuffix
+0 upgraded, 15 newly installed, 0 to remove and 1 not upgraded.
+Need to get 2968 kB of archives.
+After this operation, 7065 kB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+0% [Working]            Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 openssl amd64 3.0.2-0ubuntu1.6 [1184 kB]
+0% [1 openssl 5507 B/1184 kB 0%]                                33% [Working]             Get:2 http://archive.ubuntu.com/ubuntu jammy/main amd64 ca-certificates all 20211016 [148 kB]
+33% [2 ca-certificates 1165 B/148 kB 1%]                                        39% [Waiting for headers]                         Get:3 http://archive.ubuntu.com/ubuntu jammy/main amd64 libnghttp2-14 amd64 1.43.0-1build3 [76.3 kB]
+40% [3 libnghttp2-14 44.3 kB/76.3 kB 58%]                                         42% [Working]             Get:4 http://archive.ubuntu.com/ubuntu jammy/main amd64 libpsl5 amd64 0.21.0-1.2build2 [58.4 kB]
+42% [4 libpsl5 20.0 kB/58.4 kB 34%]                                   45% [Working]             Get:5 http://archive.ubuntu.com/ubuntu jammy/main amd64 publicsuffix all 20211207.1025-1 [129 kB]
+46% [5 publicsuffix 26.9 kB/129 kB 21%]                                       50% [Working]             Get:6 http://archive.ubuntu.com/ubuntu jammy/main amd64 libbrotli1 amd64 1.0.9-2build6 [315 kB]
+51% [6 libbrotli1 41.5 kB/315 kB 13%]                                     59% [Waiting for headers]                         Get:7 http://archive.ubuntu.com/ubuntu jammy/main amd64 libsasl2-modules-db amd64 2.1.27+dfsg2-3ubuntu1 [20.8 kB]
+60% [7 libsasl2-modules-db 20.8 kB/20.8 kB 100%]                                                61% [Waiting for headers]                         Get:8 http://archive.ubuntu.com/ubuntu jammy/main amd64 libsasl2-2 amd64 2.1.27+dfsg2-3ubuntu1 [53.9 kB]
+62% [8 libsasl2-2 25.0 kB/53.9 kB 46%]                                      64% [Working]             Get:9 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libldap-2.5-0 amd64 2.5.13+dfsg-0ubuntu0.22.04.1 [183 kB]
+65% [9 libldap-2.5-0 36.4 kB/183 kB 20%]                                        70% [Waiting for headers]                         Get:10 http://archive.ubuntu.com/ubuntu jammy/main amd64 librtmp1 amd64 2.4+20151223.gitfa8646d.1-2build4 [58.2 kB]
+71% [10 librtmp1 4688 B/58.2 kB 8%]                                   73% [Working]             Get:11 http://archive.ubuntu.com/ubuntu jammy/main amd64 libssh-4 amd64 0.9.6-2build1 [184 kB]
+74% [11 libssh-4 11.8 kB/184 kB 6%]                                   80% [Waiting for headers]                         Get:12 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libcurl4 amd64 7.81.0-1ubuntu1.4 [290 kB]
+80% [12 libcurl4 10.7 kB/290 kB 4%]                                   89% [Waiting for headers]                         Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 curl amd64 7.81.0-1ubuntu1.4 [194 kB]
+89% [13 curl 19.0 kB/194 kB 10%]                                95% [Waiting for headers]                         Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libldap-common all 2.5.13+dfsg-0ubuntu0.22.04.1 [15.9 kB]
+96% [14 libldap-common 15.9 kB/15.9 kB 100%]                                            97% [Working]             Get:15 http://archive.ubuntu.com/ubuntu jammy/main amd64 libsasl2-modules amd64 2.1.27+dfsg2-3ubuntu1 [57.5 kB]
+98% [15 libsasl2-modules 33.9 kB/57.5 kB 59%]                                             100% [Working]              Fetched 2968 kB in 1s (5832 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package openssl.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 4468 files and directories currently installed.)
+Preparing to unpack .../00-openssl_3.0.2-0ubuntu1.6_amd64.deb ...
+Unpacking openssl (3.0.2-0ubuntu1.6) ...
+Selecting previously unselected package ca-certificates.
+Preparing to unpack .../01-ca-certificates_20211016_all.deb ...
+Unpacking ca-certificates (20211016) ...
+Selecting previously unselected package libnghttp2-14:amd64.
+Preparing to unpack .../02-libnghttp2-14_1.43.0-1build3_amd64.deb ...
+Unpacking libnghttp2-14:amd64 (1.43.0-1build3) ...
+Selecting previously unselected package libpsl5:amd64.
+Preparing to unpack .../03-libpsl5_0.21.0-1.2build2_amd64.deb ...
+Unpacking libpsl5:amd64 (0.21.0-1.2build2) ...
+Selecting previously unselected package publicsuffix.
+Preparing to unpack .../04-publicsuffix_20211207.1025-1_all.deb ...
+Unpacking publicsuffix (20211207.1025-1) ...
+Selecting previously unselected package libbrotli1:amd64.
+Preparing to unpack .../05-libbrotli1_1.0.9-2build6_amd64.deb ...
+Unpacking libbrotli1:amd64 (1.0.9-2build6) ...
+Selecting previously unselected package libsasl2-modules-db:amd64.
+Preparing to unpack .../06-libsasl2-modules-db_2.1.27+dfsg2-3ubuntu1_amd64.deb ...
+Unpacking libsasl2-modules-db:amd64 (2.1.27+dfsg2-3ubuntu1) ...
+Selecting previously unselected package libsasl2-2:amd64.
+Preparing to unpack .../07-libsasl2-2_2.1.27+dfsg2-3ubuntu1_amd64.deb ...
+Unpacking libsasl2-2:amd64 (2.1.27+dfsg2-3ubuntu1) ...
+Selecting previously unselected package libldap-2.5-0:amd64.
+Preparing to unpack .../08-libldap-2.5-0_2.5.13+dfsg-0ubuntu0.22.04.1_amd64.deb ...
+Unpacking libldap-2.5-0:amd64 (2.5.13+dfsg-0ubuntu0.22.04.1) ...
+Selecting previously unselected package librtmp1:amd64.
+Preparing to unpack .../09-librtmp1_2.4+20151223.gitfa8646d.1-2build4_amd64.deb ...
+Unpacking librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2build4) ...
+Selecting previously unselected package libssh-4:amd64.
+Preparing to unpack .../10-libssh-4_0.9.6-2build1_amd64.deb ...
+Unpacking libssh-4:amd64 (0.9.6-2build1) ...
+Selecting previously unselected package libcurl4:amd64.
+Preparing to unpack .../11-libcurl4_7.81.0-1ubuntu1.4_amd64.deb ...
+Unpacking libcurl4:amd64 (7.81.0-1ubuntu1.4) ...
+Selecting previously unselected package curl.
+Preparing to unpack .../12-curl_7.81.0-1ubuntu1.4_amd64.deb ...
+Unpacking curl (7.81.0-1ubuntu1.4) ...
+Selecting previously unselected package libldap-common.
+Preparing to unpack .../13-libldap-common_2.5.13+dfsg-0ubuntu0.22.04.1_all.deb ...
+Unpacking libldap-common (2.5.13+dfsg-0ubuntu0.22.04.1) ...
+Selecting previously unselected package libsasl2-modules:amd64.
+Preparing to unpack .../14-libsasl2-modules_2.1.27+dfsg2-3ubuntu1_amd64.deb ...
+Unpacking libsasl2-modules:amd64 (2.1.27+dfsg2-3ubuntu1) ...
+Setting up libpsl5:amd64 (0.21.0-1.2build2) ...
+Setting up libbrotli1:amd64 (1.0.9-2build6) ...
+Setting up libsasl2-modules:amd64 (2.1.27+dfsg2-3ubuntu1) ...
+Setting up libnghttp2-14:amd64 (1.43.0-1build3) ...
+Setting up libldap-common (2.5.13+dfsg-0ubuntu0.22.04.1) ...
+Setting up libsasl2-modules-db:amd64 (2.1.27+dfsg2-3ubuntu1) ...
+Setting up librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2build4) ...
+Setting up libsasl2-2:amd64 (2.1.27+dfsg2-3ubuntu1) ...
+Setting up libssh-4:amd64 (0.9.6-2build1) ...
+Setting up openssl (3.0.2-0ubuntu1.6) ...
+Setting up publicsuffix (20211207.1025-1) ...
+Setting up libldap-2.5-0:amd64 (2.5.13+dfsg-0ubuntu0.22.04.1) ...
+Setting up ca-certificates (20211016) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.34.0 /usr/local/share/perl/5.34.0 /usr/lib/x86_64-linux-gnu/perl5/5.34 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.34 /usr/share/perl/5.34 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+Updating certificates in /etc/ssl/certs...
+127 added, 0 removed; done.
+Setting up libcurl4:amd64 (7.81.0-1ubuntu1.4) ...
+Setting up curl (7.81.0-1ubuntu1.4) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.1) ...
+Processing triggers for ca-certificates (20211016) ...
+Updating certificates in /etc/ssl/certs...
+0 added, 0 removed; done.
+Running hooks in /etc/ca-certificates/update.d...
+done.
+E: Problem executing scripts DPkg::Post-Invoke 'rm -f /var/cache/apt/archives/*.deb /var/cache/apt/archives/partial/*.deb /var/cache/apt/*.bin || true'
+E: Sub-process returned an error code
+[?2004h]0;root@2f77e22b0078: /root@2f77e22b0078:/# curl -SL  sL [7mhttps://deb.nodesource.com/setup_16.x | bash[27mhttps://deb.nodesource.com/setup_16.x | bash
+[?2004l[?2004h]0;root@2f77e22b0078: /root@2f77e22b0078:/# [Kapt install -y nodejs
+[?2004lReading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 8%Reading package lists... 8%Reading package lists... 82%Reading package lists... 82%Reading package lists... 83%Reading package lists... 83%Reading package lists... 87%Reading package lists... 87%Reading package lists... 90%Reading package lists... 90%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 95%Reading package lists... 95%Reading package lists... 97%Reading package lists... 97%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 99%Building dependency tree... Done
+Reading state information... 0% Reading state information... 6%Reading state information... Done
+The following additional packages will be installed:
+  javascript-common libc-ares2 libicu70 libjs-highlight.js libnode72 libuv1 nodejs-doc
+Suggested packages:
+  apache2 | lighttpd | httpd npm
+The following NEW packages will be installed:
+  javascript-common libc-ares2 libicu70 libjs-highlight.js libnode72 libuv1 nodejs nodejs-doc
+0 upgraded, 8 newly installed, 0 to remove and 1 not upgraded.
+Need to get 24.4 MB of archives.
+After this operation, 89.5 MB of additional disk space will be used.
+[33m0% [Working][0m            Get:1 http://archive.ubuntu.com/ubuntu jammy/main amd64 libicu70 amd64 70.1-2 [10.6 MB]
+[33m0% [1 libicu70 1162 B/10.6 MB 0%][0m[33m19% [1 libicu70 5883 kB/10.6 MB 56%][0m[33m                                    37% [Waiting for headers][0m                         Get:2 http://archive.ubuntu.com/ubuntu jammy/main amd64 libuv1 amd64 1.43.0-1 [93.1 kB]
+[33m37% [2 libuv1 8406 B/93.1 kB 9%][0m[33m                                40% [Waiting for headers][0m                         Get:3 http://archive.ubuntu.com/ubuntu jammy/main amd64 javascript-common all 11+nmu1 [5936 B]
+[33m40% [3 javascript-common 5936 B/5936 B 100%][0m[33m                                            43% [Working][0m             Get:4 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libjs-highlight.js all 9.18.5+dfsg1-1 [367 kB]
+[33m43% [4 libjs-highlight.js 13.1 kB/367 kB 4%][0m[33m                                            46% [Waiting for headers][0m                         Get:5 http://archive.ubuntu.com/ubuntu jammy/main amd64 libc-ares2 amd64 1.18.1-1build1 [44.9 kB]
+[33m46% [5 libc-ares2 26.1 kB/44.9 kB 58%][0m[33m                                      49% [Waiting for headers][0m                         Get:6 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libnode72 amd64 12.22.9~dfsg-1ubuntu3 [10.8 MB]
+[33m49% [6 libnode72 32.0 kB/10.8 MB 0%][0m[33m79% [6 libnode72 9066 kB/10.8 MB 84%][0m                                     Get:7 http://archive.ubuntu.com/ubuntu jammy/universe amd64 nodejs-doc all 12.22.9~dfsg-1ubuntu3 [2409 kB]
+[33m                                     87% [7 nodejs-doc 190 kB/2409 kB 8%][0m[33m                                    97% [Working][0m             Get:8 http://archive.ubuntu.com/ubuntu jammy/universe amd64 nodejs amd64 12.22.9~dfsg-1ubuntu3 [122 kB]
+[33m97% [8 nodejs 22.0 kB/122 kB 18%][0m[33m                                 100% [Working][0m              Fetched 24.4 MB in 2s (14.7 MB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+
+7[0;54r8[1ASelecting previously unselected package libicu70:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 5041 files and directories currently installed.)
+Preparing to unpack .../0-libicu70_70.1-2_amd64.deb ...
+7[55;0f[42m[30mProgress: [  0%][49m[39m [...................................................................................] 87[55;0f[42m[30mProgress: [  3%][49m[39m [##.................................................................................] 8Unpacking libicu70:amd64 (70.1-2) ...
+7[55;0f[42m[30mProgress: [  6%][49m[39m [#####..............................................................................] 8Selecting previously unselected package libuv1:amd64.
+Preparing to unpack .../1-libuv1_1.43.0-1_amd64.deb ...
+7[55;0f[42m[30mProgress: [  9%][49m[39m [#######............................................................................] 8Unpacking libuv1:amd64 (1.43.0-1) ...
+7[55;0f[42m[30mProgress: [ 12%][49m[39m [##########.........................................................................] 8Selecting previously unselected package javascript-common.
+Preparing to unpack .../2-javascript-common_11+nmu1_all.deb ...
+7[55;0f[42m[30mProgress: [ 15%][49m[39m [############.......................................................................] 8Unpacking javascript-common (11+nmu1) ...
+7[55;0f[42m[30mProgress: [ 18%][49m[39m [###############....................................................................] 8Selecting previously unselected package libjs-highlight.js.
+Preparing to unpack .../3-libjs-highlight.js_9.18.5+dfsg1-1_all.deb ...
+7[55;0f[42m[30mProgress: [ 21%][49m[39m [#################..................................................................] 8Unpacking libjs-highlight.js (9.18.5+dfsg1-1) ...
+7[55;0f[42m[30mProgress: [ 24%][49m[39m [####################...............................................................] 8Selecting previously unselected package libc-ares2:amd64.
+Preparing to unpack .../4-libc-ares2_1.18.1-1build1_amd64.deb ...
+7[55;0f[42m[30mProgress: [ 27%][49m[39m [######################.............................................................] 8Unpacking libc-ares2:amd64 (1.18.1-1build1) ...
+7[55;0f[42m[30mProgress: [ 30%][49m[39m [#########################..........................................................] 8Selecting previously unselected package libnode72:amd64.
+Preparing to unpack .../5-libnode72_12.22.9~dfsg-1ubuntu3_amd64.deb ...
+7[55;0f[42m[30mProgress: [ 33%][49m[39m [###########################........................................................] 8Unpacking libnode72:amd64 (12.22.9~dfsg-1ubuntu3) ...
+7[55;0f[42m[30mProgress: [ 36%][49m[39m [##############################.....................................................] 8Selecting previously unselected package nodejs-doc.
+Preparing to unpack .../6-nodejs-doc_12.22.9~dfsg-1ubuntu3_all.deb ...
+7[55;0f[42m[30mProgress: [ 39%][49m[39m [################################...................................................] 8Unpacking nodejs-doc (12.22.9~dfsg-1ubuntu3) ...
+7[55;0f[42m[30mProgress: [ 42%][49m[39m [###################################................................................] 8Selecting previously unselected package nodejs.
+Preparing to unpack .../7-nodejs_12.22.9~dfsg-1ubuntu3_amd64.deb ...
+7[55;0f[42m[30mProgress: [ 45%][49m[39m [#####################################..............................................] 8Unpacking nodejs (12.22.9~dfsg-1ubuntu3) ...
+7[55;0f[42m[30mProgress: [ 48%][49m[39m [########################################...........................................] 8Setting up javascript-common (11+nmu1) ...
+7[55;0f[42m[30mProgress: [ 52%][49m[39m [##########################################.........................................] 87[55;0f[42m[30mProgress: [ 55%][49m[39m [#############################################......................................] 8Setting up libc-ares2:amd64 (1.18.1-1build1) ...
+7[55;0f[42m[30mProgress: [ 58%][49m[39m [###############################################....................................] 87[55;0f[42m[30mProgress: [ 61%][49m[39m [##################################################.................................] 8Setting up libuv1:amd64 (1.43.0-1) ...
+7[55;0f[42m[30mProgress: [ 64%][49m[39m [####################################################...............................] 87[55;0f[42m[30mProgress: [ 67%][49m[39m [#######################################################............................] 8Setting up libjs-highlight.js (9.18.5+dfsg1-1) ...
+7[55;0f[42m[30mProgress: [ 70%][49m[39m [#########################################################..........................] 87[55;0f[42m[30mProgress: [ 73%][49m[39m [############################################################.......................] 8Setting up libicu70:amd64 (70.1-2) ...
+7[55;0f[42m[30mProgress: [ 76%][49m[39m [##############################################################.....................] 87[55;0f[42m[30mProgress: [ 79%][49m[39m [#################################################################..................] 8Setting up libnode72:amd64 (12.22.9~dfsg-1ubuntu3) ...
+7[55;0f[42m[30mProgress: [ 82%][49m[39m [###################################################################................] 87[55;0f[42m[30mProgress: [ 85%][49m[39m [######################################################################.............] 8Setting up nodejs-doc (12.22.9~dfsg-1ubuntu3) ...
+7[55;0f[42m[30mProgress: [ 88%][49m[39m [########################################################################...........] 87[55;0f[42m[30mProgress: [ 91%][49m[39m [###########################################################################........] 8Setting up nodejs (12.22.9~dfsg-1ubuntu3) ...
+7[55;0f[42m[30mProgress: [ 94%][49m[39m [#############################################################################......] 8update-alternatives: using /usr/bin/nodejs to provide /usr/bin/js (js) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/js.1.gz because associated file /usr/share/man/man1/nodejs.1.gz (of link group js) doesn't exist
+7[55;0f[42m[30mProgress: [ 97%][49m[39m [################################################################################...] 8Processing triggers for libc-bin (2.35-0ubuntu3.1) ...
+
+7[0;55r8[1A[J[1;31mE: [0mProblem executing scripts DPkg::Post-Invoke 'rm -f /var/cache/apt/archives/*.deb /var/cache/apt/archives/partial/*.deb /var/cache/apt/*.bin || true'[0m
+[1;31mE: [0mSub-process returned an error code[0m
+[?2004h]0;root@2f77e22b0078: /root@2f77e22b0078:/# node /usr/src/app/index.js
+[?2004lnode[2529]: ../src/node_platform.cc:61:std::unique_ptr<long unsigned int> node::WorkerThreadsTaskRunner::DelayedTaskScheduler::Start(): Assertion `(0) == (uv_thread_create(t.get(), start_thread, this))' failed.
+ 1: 0x7fec5afc33cc node::Abort() [/lib/x86_64-linux-gnu/libnode.so.72]
+ 2: 0x7fec5afc345b  [/lib/x86_64-linux-gnu/libnode.so.72]
+ 3: 0x7fec5b045de2 node::WorkerThreadsTaskRunner::WorkerThreadsTaskRunner(int) [/lib/x86_64-linux-gnu/libnode.so.72]
+ 4: 0x7fec5b045f16 node::NodePlatform::NodePlatform(int, v8::TracingController*) [/lib/x86_64-linux-gnu/libnode.so.72]
+ 5: 0x7fec5af8e2c8 node::InitializeOncePerProcess(int, char**) [/lib/x86_64-linux-gnu/libnode.so.72]
+ 6: 0x7fec5af8e4ac node::Start(int, char**) [/lib/x86_64-linux-gnu/libnode.so.72]
+ 7: 0x7fec5a4fcd90  [/lib/x86_64-linux-gnu/libc.so.6]
+ 8: 0x7fec5a4fce40 __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
+ 9: 0x557d6553a0f5 _start [node]
+Aborted (core dumped)
+[?2004h]0;root@2f77e22b0078: /root@2f77e22b0078:/# [Knode /usr/src/app/index.js[1P[1P[1P[1P[1@c[1@a[1@t
+[?2004l[?2004h]0;root@2f77e22b0078: /root@2f77e22b0078:/# cat /usr/src/app/index.js[1P[1P[1P[1@n[1@a[1@n[1@o
+[?2004l[?2004h[?1049h[22;0;0t[1;55r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[53;46H(B[0;7m[ Reading... ](B[m[53;45H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 6.2 [29b/usr/src/app/index.js [38b [1;104H(B[m[54d(B[0;7m^G(B[m Help[54;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[54;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[55d(B[0;7m^X(B[m Exit[55;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[2d[?12l[?25h[?25l[?12l[?25h[?25l[1;67H(B[0;7m*[53d(B[m[K[1;104H[2dconsole.log((B[0;1m[35m'Hello World'[39m(B[m)[?12l[?25h[?25l[54;16H [10b(B[0;7mM-D(B[m DOS Format [11b(B[0;7mM-A(B[m Append[16X[54;79H(B[0;7mM-B(B[m Backup File[K[55;2H(B[0;7mC(B[m Cancel[16G [10b(B[0;7mM-M(B[m Mac Format [11b(B[0;7mM-P(B[m Prepend[15X[55;79H(B[0;7m^T(B[m Browse[K[53d(B[0;7mFile Name to Write: /usr/src/app/index.js [62b [53;42H(B[m[?12l[?25h[?25l   [1K (B[0;7m[ Writing... ](B[m[K[1;67H(B[0;7m [104G(B[m[53;45H(B[0;7m[ Wrote 1 line ](B[m[54;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut [8b(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[55;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste [6b(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[?12l[?25h[2;27H[?25l[53d[J[55d[?12l[?25h[55;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;root@2f77e22b0078: /root@2f77e22b0078:/# [Knano /usr/src/app/index.js[1Pcat /usr/src/app/index.js[1@node /usr/src/app/index.js
+[?2004lnode[2532]: ../src/node_platform.cc:61:std::unique_ptr<long unsigned int> node::WorkerThreadsTaskRunner::DelayedTaskScheduler::Start(): Assertion `(0) == (uv_thread_create(t.get(), start_thread, this))' failed.
+ 1: 0x7f49d01173cc node::Abort() [/lib/x86_64-linux-gnu/libnode.so.72]
+ 2: 0x7f49d011745b  [/lib/x86_64-linux-gnu/libnode.so.72]
+ 3: 0x7f49d0199de2 node::WorkerThreadsTaskRunner::WorkerThreadsTaskRunner(int) [/lib/x86_64-linux-gnu/libnode.so.72]
+ 4: 0x7f49d0199f16 node::NodePlatform::NodePlatform(int, v8::TracingController*) [/lib/x86_64-linux-gnu/libnode.so.72]
+ 5: 0x7f49d00e22c8 node::InitializeOncePerProcess(int, char**) [/lib/x86_64-linux-gnu/libnode.so.72]
+ 6: 0x7f49d00e24ac node::Start(int, char**) [/lib/x86_64-linux-gnu/libnode.so.72]
+ 7: 0x7f49cf650d90  [/lib/x86_64-linux-gnu/libc.so.6]
+ 8: 0x7f49cf650e40 __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
+ 9: 0x563f8dae50f5 _start [node]
+Aborted (core dumped)
+[?2004h]0;root@2f77e22b0078: /root@2f77e22b0078:/# [Knode /usr/src/app/index.jsano /usr/src/app/index.js[1Pcat /usr/src/app/index.js
+[?2004lconsole.log('Hello World')
+[?2004h]0;root@2f77e22b0078: /root@2f77e22b0078:/# cat /usr/src/app/index.js[1@node /usr/src/app/index.jsano /usr/src/app/index.jsode /usr/src/app/index.js
+[?2004lnode[2534]: ../src/node_platform.cc:61:std::unique_ptr<long unsigned int> node::WorkerThreadsTaskRunner::DelayedTaskScheduler::Start(): Assertion `(0) == (uv_thread_create(t.get(), start_thread, this))' failed.
+ 1: 0x7fd96477f3cc node::Abort() [/lib/x86_64-linux-gnu/libnode.so.72]
+ 2: 0x7fd96477f45b  [/lib/x86_64-linux-gnu/libnode.so.72]
+ 3: 0x7fd964801de2 node::WorkerThreadsTaskRunner::WorkerThreadsTaskRunner(int) [/lib/x86_64-linux-gnu/libnode.so.72]
+ 4: 0x7fd964801f16 node::NodePlatform::NodePlatform(int, v8::TracingController*) [/lib/x86_64-linux-gnu/libnode.so.72]
+ 5: 0x7fd96474a2c8 node::InitializeOncePerProcess(int, char**) [/lib/x86_64-linux-gnu/libnode.so.72]
+ 6: 0x7fd96474a4ac node::Start(int, char**) [/lib/x86_64-linux-gnu/libnode.so.72]
+ 7: 0x7fd963cb8d90  [/lib/x86_64-linux-gnu/libc.so.6]
+ 8: 0x7fd963cb8e40 __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
+ 9: 0x5568d355d0f5 _start [node]
+Aborted (core dumped)
+[?2004h]0;root@2f77e22b0078: /root@2f77e22b0078:/# [Knode -v
+[?2004lv12.22.9
+[?2004h]0;root@2f77e22b0078: /root@2f77e22b0078:/# npm -v
+[?2004lbash: npm: command not found
+[?2004h]0;root@2f77e22b0078: /root@2f77e22b0078:/# cd    npm -v[1@ode -v/usr/src/app/index.js[1P[1P[1P[1P[1@c[1@d /usr/src/app/index.js        
+[?2004l[?2004h]0;root@2f77e22b0078: /usr/src/approot@2f77e22b0078:/usr/src/app# ls
+[?2004lindex.js
+[?2004h]0;root@2f77e22b0078: /usr/src/approot@2f77e22b0078:/usr/src/app# node index.js  
+[?2004lnode[2538]: ../src/node_platform.cc:61:std::unique_ptr<long unsigned int> node::WorkerThreadsTaskRunner::DelayedTaskScheduler::Start(): Assertion `(0) == (uv_thread_create(t.get(), start_thread, this))' failed.
+ 1: 0x7f2b9bb163cc node::Abort() [/lib/x86_64-linux-gnu/libnode.so.72]
+ 2: 0x7f2b9bb1645b  [/lib/x86_64-linux-gnu/libnode.so.72]
+ 3: 0x7f2b9bb98de2 node::WorkerThreadsTaskRunner::WorkerThreadsTaskRunner(int) [/lib/x86_64-linux-gnu/libnode.so.72]
+ 4: 0x7f2b9bb98f16 node::NodePlatform::NodePlatform(int, v8::TracingController*) [/lib/x86_64-linux-gnu/libnode.so.72]
+ 5: 0x7f2b9bae12c8 node::InitializeOncePerProcess(int, char**) [/lib/x86_64-linux-gnu/libnode.so.72]
+ 6: 0x7f2b9bae14ac node::Start(int, char**) [/lib/x86_64-linux-gnu/libnode.so.72]
+ 7: 0x7f2b9b04fd90  [/lib/x86_64-linux-gnu/libc.so.6]
+ 8: 0x7f2b9b04fe40 __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
+ 9: 0x55ec4c3880f5 _start [node]
+Aborted (core dumped)
+[?2004h]0;root@2f77e22b0078: /usr/src/approot@2f77e22b0078:/usr/src/app# [7mcurl -sL https://deb.nodesource.com/setup_16.x | bash[27mcurl -sL https://deb.nodesource.com/setup_16.x | bash
+[?2004l[?2004h]0;root@2f77e22b0078: /usr/src/approot@2f77e22b0078:/usr/src/app# [Kapt install -u y nodejs
+[?2004lReading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 8%Reading package lists... 8%Reading package lists... 82%Reading package lists... 82%Reading package lists... 83%Reading package lists... 83%Reading package lists... 87%Reading package lists... 87%Reading package lists... 90%Reading package lists... 90%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 95%Reading package lists... 95%Reading package lists... 97%Reading package lists... 97%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 98%Building dependency tree... Done
+Reading state information... 0% Reading state information... 4%Reading state information... Done
+nodejs is already the newest version (12.22.9~dfsg-1ubuntu3).
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+[?2004h]0;root@2f77e22b0078: /usr/src/approot@2f77e22b0078:/usr/src/app# apt install -y nodejscurl -sL https://deb.nodesource.com/setup_16.x | bashnode index.js[K
+[?2004lnode[2545]: ../src/node_platform.cc:61:std::unique_ptr<long unsigned int> node::WorkerThreadsTaskRunner::DelayedTaskScheduler::Start(): Assertion `(0) == (uv_thread_create(t.get(), start_thread, this))' failed.
+ 1: 0x7f3aa3d2a3cc node::Abort() [/lib/x86_64-linux-gnu/libnode.so.72]
+ 2: 0x7f3aa3d2a45b  [/lib/x86_64-linux-gnu/libnode.so.72]
+ 3: 0x7f3aa3dacde2 node::WorkerThreadsTaskRunner::WorkerThreadsTaskRunner(int) [/lib/x86_64-linux-gnu/libnode.so.72]
+ 4: 0x7f3aa3dacf16 node::NodePlatform::NodePlatform(int, v8::TracingController*) [/lib/x86_64-linux-gnu/libnode.so.72]
+ 5: 0x7f3aa3cf52c8 node::InitializeOncePerProcess(int, char**) [/lib/x86_64-linux-gnu/libnode.so.72]
+ 6: 0x7f3aa3cf54ac node::Start(int, char**) [/lib/x86_64-linux-gnu/libnode.so.72]
+ 7: 0x7f3aa3263d90  [/lib/x86_64-linux-gnu/libc.so.6]
+ 8: 0x7f3aa3263e40 __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
+ 9: 0x556b81f5f0f5 _start [node]
+Aborted (core dumped)
+[?2004h]0;root@2f77e22b0078: /usr/src/approot@2f77e22b0078:/usr/src/app# exit
+[?2004lexit
+]0;julinden@lx9-fuxi265: ~/FullStackPart12/script-answers[01;32mjulinden@lx9-fuxi265[00m:[01;34m~/FullStackPart12/script-answers[00m$ exit
+exit
+
+Script done on 2022-10-19 00:29:33+0300
